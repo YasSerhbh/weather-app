@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.wrapper {
+    background: linear-gradient(#7b7b7b, #5ccab5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-container {
+    background: #2c5046;
+    height: 70vh;
+    padding: 100px 50px 0px 50px;
+    margin: auto;
+}
+
+
+input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    display: block;
+    padding-bottom: 4px;
+    color: #fff !important;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+button {
+    border: 0;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+    font-weight: 100;
+}
+
+.info {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+}
+.info_key {
+    color: #fff;
+    font-weight: 400;
+    border-bottom: rgba(255, 255, 255, 0.06);
+}
+.info_key:last-child {border: 0;}
+
+.info_value {
+    font-weight: 200;
+    color: #fff;
+}
